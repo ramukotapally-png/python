@@ -1,0 +1,16 @@
+# score out of 100
+physics = 80
+chemistry = 90
+biology = 100
+maths = 80
+history = 70
+# find % scored
+
+physics = int(input("Enter you physics score"))
+chemistry = int(input("Enter you chemistry score"))
+biology = int(input("Enter you biology score"))
+maths = int(input("Enter you maths score"))
+history = int(input("Enter you history score"))
+total = physics + chemistry + biology + maths + history
+percentage = (total/500)*100
+print(percentage)
